@@ -1,6 +1,6 @@
 /* General style */
 body{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     background-image: url("img2 (2).png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,7 +10,7 @@ body{
     padding: 0;
 }
 header{
-    display: block;
+    display: flex;
     padding: 20px;
     color: white;
     position: relative;
@@ -33,7 +33,6 @@ header{
     height: auto;
 }
 nav{
-    display: none;
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -84,7 +83,7 @@ nav a:hover{
     text-align: center;
 }
 .banner img{
-    max-width: 80%;
+    max-width: 100%;
     width: 1800px;
     margin: 0;
     padding: 0;
